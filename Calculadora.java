@@ -1,3 +1,10 @@
+/**
+ * Clase objeto Calculadora 
+ * @see <a href="http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javadoc.html">Javadoc</a>
+ * @see <a href="https://docs.oracle.com/javase/8/docs/api/">Javadoc JDK</a>
+ * @author Herberth Espinoza
+ * @version 1.0
+ */
 package entornos;
 
 public class Calculadora {
@@ -35,41 +42,39 @@ public class Calculadora {
     
     public double Suma()
     {
+    	//@return:operación suma
         return iOperadorA + iOperadorB;
     }
     
     public double Resta()
     {
+    	//@return:operación resta
         return iOperadorA - iOperadorB;
     }
     
     public double Multiplicacion()
     {
+    	//@return:operación multiplicación
         return iOperadorA * iOperadorB;
     }
     
     public double Division()
     {
+    	//@return:operación división
          return iOperadorA / iOperadorB;
     }
     public double raiz()
     {
+    	//@return:operación raiz cuadrada  
          return Math.sqrt(iOperadorA);
     }
     public double logaritmo()
     {
+    	//@return:operación logaritmica  
          return Math.log10(iOperadorA);
     }
 
-    public void Resultado(){
-        System.out.println("dav_branch");
-        System.out.println(Suma());
-        System.out.println(Resta());
-        System.out.println(Multiplicacion());
-        System.out.println(Division());
-        System.out.println(raiz());
-        System.out.println(logaritmo());
         
-    }
+    
     
 }
